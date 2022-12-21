@@ -98,7 +98,14 @@ margin: auto;
 }
 
 @media only screen and (max-width:375px) {
+
     .more label{
+
     margin: 0 1% 0 0;
+
+      font-size:13px;
+
     }
+
 }
+        
