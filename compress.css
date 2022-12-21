@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+
+}
+
+.main{
+position: sticky;
+margin: 20px 0 0 0;
+width: 500px;
+height: 570px;
+background:linear-gradient(to right,aliceblue,white);
+border: 1px solid black;
+}
+.main h3{
+    color: gray;
+    text-align: center;
+}
+.image{
+    display: flex;
+    margin: 10px 0 0 25px;
+    width: 90%;
+    height: 300px;
+    background-color: rgb(110, 174, 231);
+    /* border: 1px solid red; */
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-size: 100;
+    color:gray;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+    
+
+.input input{
+    /* background-color: pink; */
+    width: 40%;
+    margin: 40px 0 0 20px;
+    font-size: 20px;
+    height: 25px;
+    color:gray;
+
+}
+.input label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin: 10px 0 0 20px;
+    position: absolute;
+}
+
+.more input{
+    width: 20px;
+    margin: 20px 0 0 20px;
+    font-size: 20px;
+    height: 25px;
+   
+}
+.more label{
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: black;
+    margin: 0 12% 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+#btn{
+    margin: 20px;
+    width:90%;
+    height: 55px;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#btn button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:445px) {
+    .more label{
+    margin: 0 5% 0 0;
+    }
+    .image{
+margin: auto;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .more label{
+    margin: 0 1% 0 0;
+    }
+}

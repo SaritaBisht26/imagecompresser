@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageCompressor</title>
+    <link rel="stylesheet" href="compress.css">
+</head>
+<body>
+    
+   <div class="main">
+<pre><h3 title="Made By Pavi Negi">My Image Compressor</h3></pre>
+    <div class="image">
+        <img src="">
+       <input type="file" accept="image/*" hidden>
+    </div>
+
+    <div class="input">
+        <label for="">Width</label>
+        <input type="number" id="width" min="100">
+
+        <label for="">Height</label>
+        <input type="number" id="height" min="100">
+    </div>
+    <div class="more">
+        <input type="checkbox" id="ratio">
+        <label>Lock Aspect Ratio</label>
+
+        <input type="checkbox" id="Quality">
+        <label>Reduce Quality</label>
+       </div>
+
+<div id="btn">
+<button id="button">Download</button>
+</div>
+   </div>
+
+
+   
+<script src="compress.js"></script>
+</body>
+</html>
